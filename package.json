@@ -2,7 +2,19 @@
   "name": "lunkwill",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
-    "shadow-cljs": "2.27.5"
+    "shadow-cljs": "2.27.5",
+    "@tensorflow/tfjs-node": "^4.17.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.17.0",
+    "@tensorflow/tfjs-node": "^4.17.0"
+  },
+  "optionalDependencies": {
+    "@tensorflow/tfjs-node": "^4.17.0",
+    "@tensorflow/tfjs-gpu": "^4.17.0"
   }
 }

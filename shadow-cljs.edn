@@ -5,7 +5,7 @@
   "src/test"]
 
  :dependencies
- []
+ [[com.hyperfiddle/rcf "20220926-202227"]]
 
  :builds
  {}}
